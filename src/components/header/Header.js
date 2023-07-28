@@ -1,5 +1,5 @@
 import React from "react";
-import Home from "../section/home/Home";
+import Home from "../home/Home";
 import {useState,useRef, useEffect} from 'react';
 import  "./Header.css";
 
@@ -23,7 +23,7 @@ export default function Header() {
           backgroundColor: navColor,
          }}>
         <div className="container"  >
-            <a className="navbar-brand" href="#">Brad</a>
+          
             <div class="toggle"></div>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav ms-auto">
