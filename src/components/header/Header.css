@@ -1,0 +1,28 @@
+
+.navbar-dark .navbar-nav .nav-link .navbar-brand{
+    color: rgba(255,255,255,.55);
+}
+.nav-link {
+    color: rgba(255,255,255,.55);
+}
+.navbar-brand{
+    color: rgba(255,255,255,.55);
+}
+.toggle{
+	display: none;
+}
+@media(max-width:900px){
+	.toggle{
+			display:block;
+		}
+		.toggle:before{
+	content:'\f0c9';
+	font-family: fontAwesome;
+	line-height: 0px;
+			margin-left:-30px;
+}
+		.toggle.active:before{
+	content:'\f00d' !important;
+	
+		}
+    }
